@@ -1,0 +1,17 @@
+pip3 install folium
+
+open python3
+
+import folium
+
+map = folium.Map
+
+map = folium.Map(location=[80, -100])
+run map
+run map.save("Map1.html") to create a map file in html
+
+dir(folium) - Helps you get list of available objects you can use on folium.
+
+help(folium.Map) - Helps you to see what you can pass to the Map object
+
+Folium converts python codes to html, javascript and css code 
